@@ -1,12 +1,11 @@
 <<<<<<< HEAD
 =======
-# Meal-App
-# Author
+
 # Meal-App
 # Author
 Silvia Wachira
 # Description
-This is a project creating the website of a business called Meal-App.
+This is a project creating the website of a business called Meal-App.It is a website that recommenda meals for the user based on the time of the day.
 # Technologies Used
 *HTML<br>
 *CSS<br>
