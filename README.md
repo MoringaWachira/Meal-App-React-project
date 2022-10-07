@@ -6,7 +6,7 @@
 # Author
 Silvia Wachira
 # Description
-This is a project creating the website of a business called Agriplus.
+This is a project creating the website of a business called Meal-App.
 # Technologies Used
 *HTML<br>
 *CSS<br>
