@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-
-# # Meal-App-React-project
+## Meal-App-React-project
 # Author
 Silvia Wachira
 # Description
@@ -47,5 +44,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
->>>>>>> 194fbaf9b6a3529dc651e7708cb172e4295da169
+
 
