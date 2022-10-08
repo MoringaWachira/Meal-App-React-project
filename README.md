@@ -2,7 +2,7 @@
 # Author
 Silvia Wachira
 # Description
-This is a project creating the website of a business called Meal-App.It is a website that recommenda meals for the user based on the time of the day.It also as a feature that lets the user know the user know the time of day i.e. morning afternoon or evening and also the day of the week.
+This is a project creating the website of a business called Meal-App.It is a website that recommends meals for the user based on the time of the day.It also as a feature that lets the user know the user know the time of day i.e. morning afternoon or evening and also the day of the week.
 # Technologies Used
 *HTML<br>
 *CSS<br>
