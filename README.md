@@ -21,6 +21,7 @@ Open in vs code: [code .]
 npm install , npm start , npm run server
 
 # Live page
+[https://silvia-meal-app.netlify.app/](https://silvia-meal-app.netlify.app/)
 
 # Contact Information
 You can email wachirasilvia8@gmail.com for any enquiries 
