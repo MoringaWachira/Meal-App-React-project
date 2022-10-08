@@ -18,7 +18,6 @@ function App() {
   fetchTimeData()
   }, [])
 
-  console.log(meals)
 //    let recipes = meals.map((item) => {
 //     return <p>{item.title}</p>
 //   })
@@ -28,7 +27,6 @@ function App() {
         .then((data) => setTime(data))
 
     }
-    console.log(time)
 
     let welcome;  
     let date = new Date();  
@@ -46,7 +44,7 @@ function App() {
     } else {  
       welcome = "good evening";  
     }
- console.log(welcome)
+
   return (
     <div className="App">
             <NavBar />
