@@ -8,8 +8,7 @@ body {
 }
 .nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   height: 9rem;
   min-width: 100vw;
@@ -35,10 +34,8 @@ body {
 }
 
 .heading {
-  margin-left: 750px;
   font-size: 50px;
   font-style: oblique;
-  /* color: #fed000; */
 }
 
 .btn {
@@ -53,10 +50,16 @@ body {
   width: 100px;
 }
 .info {
-  margin-left: 800px;
+  margin-left: 43vw;
   font-size: 30px;
-  /* align-items: center; */
 
+}
+.home {
+  background-image: url(./assets/stressed-aunty.jpg);
+  background-position: top left;
+  background-size: 35vw 50vh;
+  background-repeat: no-repeat;
+  height: 70vh;
 }
 
 .info span{
@@ -91,4 +94,8 @@ input:focus {
 .btn {
   width: 100px;
   cursor: pointer;
+}
+
+.footer {
+  margin-top: 250px;
 }
