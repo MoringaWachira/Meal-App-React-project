@@ -1,25 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import About from './components/About';
-import Contact from './components/Contact';
-import Home from './components/Home';
+
 import './index.css';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-  <Routes>
-    <Route path='/' exact element={<App/>}>
-    <Route path="/home" element={<Home/>}/>
-    <Route path="/about" element={<About/>}/>
-    <Route path="/contact" element={<Contact/>}/>
-
-    </Route>
-    
-  </Routes>
+    <App />
   </BrowserRouter>
 );
 
