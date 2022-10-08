@@ -7,9 +7,6 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import recipes from "./recipes.json"
 
-
-
-
 function App() {
   
   const [meals,setMeals] = useState([])
@@ -20,38 +17,24 @@ function App() {
   fetchTimeData()
   }, [])
 
-//    let recipes = meals.map((item) => {
-//     return <p>{item.title}</p>
-//   })
     function fetchTimeData() {
         fetch("http://worldtimeapi.org/api/ip")
         .then((response) => response.json())
         .then((data) => setTime(data))
-
-    }
-
-    
+    } 
 
   return (
 
-
     <div className="App">
-            <NavBar />
+      <NavBar />
 
-     <Routes>
-          {/* <Route path='/' exact element={<App/>}> */}
-          <Route exact path="/" element={<Home meals={meals} time={time} />}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+      <Routes>
+            <Route exact path="/" element={<Home meals={meals} time={time} />}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+      </Routes>
 
-          {/* </Route> */}
-    
-   </Routes>
-
-      
       <Footer />
-      
-      
     </div>
   );
 }

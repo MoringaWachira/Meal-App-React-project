@@ -12,7 +12,6 @@ function Search(props) {
     setChoice(e.target.value)
 
   }
-  console.log(props.meals)
 
   let randomMeal
 
@@ -22,15 +21,12 @@ function Search(props) {
     let meal = mealData && mealData.filter(function(item){
       return item.title===param
     })
-    // let meal = mealData.filter(item => item["title"] === param)
     timeMeal = meal[0].recommendations
     randomMeal = timeMeal[Math.floor(Math.random() * timeMeal.length)]
     setDish(randomMeal)
     setShow(true)
 
   }
-console.log(dish)
-
 
   return (
       
@@ -46,7 +42,6 @@ console.log(dish)
       </form>
       {show ? <h3 className='form' >you should try {dish}</h3> : ""}
 
-     
       
     </div>
             

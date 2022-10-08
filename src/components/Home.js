@@ -1,7 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import React from 'react'
 import Search from './Search';
-// import Recipe from './components/Contact';
 
 
 
