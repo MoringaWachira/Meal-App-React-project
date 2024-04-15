@@ -8,7 +8,7 @@ This is a project creating the website of a business called Meal-App.It is a web
 *CSS<br>
 *React Js<br>
 *JavaScript<br>
-*Json Server
+*Json Server 
 # Set Up Instructions
 Open the Terminal command line: [CTRL+ALT+T]
 
